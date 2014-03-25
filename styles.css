@@ -1,0 +1,160 @@
+ul.navigation {
+	height: 2em;
+	width: 800px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.navigation li{
+	color:#999;
+	font-size: 16px;
+	cursor: pointer;
+	/*background: #bdf url(tabs.gif);*/
+	float: left;
+	padding: 10px 18px;
+	border-top: solid 1px #CCC;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+	background: #f9f9f9;
+	margin: 0 0;
+}
+
+.navigation li:first-of-type{
+	border-radius: 4px 0 0 4px;
+}
+
+.navigation li:last-of-type{
+	border-radius: 0 4px 4px 0;
+	border-right: solid 1px #CCC;
+}
+
+ul.navigation li.selected {
+	color: #000;
+	background: #e9e9e9;
+	border-color: #AAA;
+	box-shadow: inset 0px 0px 4px rgba(0,0,0,0.2);
+}
+
+ul#toc a{
+	background: url(tabs.gif) 100% 0;
+	color: 008;
+	float: left;
+	line-height: 2em;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+h3{
+	font-size: 17px;
+}
+
+#infobox{
+	/*background-color: #dd2;*/
+	width: 300px;
+	margin-top: 15px;
+	padding: 10px 18px; 
+	float: left;
+	clear: both;
+}
+
+circle,
+path{
+	cursor: pointer;
+}
+
+/*wieso wird das nicht gemacht?? Verstehe - weil die Farbe aus dem Code stärker ist....*/
+path:hover{
+	fill-opacity: 1;
+}
+
+circle {
+	fill: none;
+	/*stroke: #000;*/
+	pointer-events: all;
+}
+
+.female{
+	fill: #30b68f;
+	/*opacity: 0.5;*/
+}
+
+.male{
+	fill: #cfb725;
+	/*opacity: 0.5;*/
+}
+
+body {
+	font: 14px sans-serif;
+	font-family: Arial;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.d3-tip {
+	line-height: 1;
+	font-weight: bold;
+	padding: 12px;
+	background: #e9e9e9;
+	/*background: rgba(0, 0, 0, 0.8);*/
+	color: #000;
+	border-radius: 2px;
+
+}
+
+.d3-tip:after{
+	box-sizing: border-box;
+	display: inline;
+	font-size: 14px;
+	width: 100%;
+	line-height: 1;
+	color: #e9e9e9;
+	/*color: rgba(0, 0, 0, 0.8);*/
+	content: "\25BC";
+	position: absolute;
+	text-align: center;
+}
+
+.d3-tip.n:after {
+	margin: -1px 0 0 0;
+	top: 100%;
+	left: 0;
+}
+/*
+SiFu: WIESO funktioniert das? Wieso brauche ich dieses Styling für die northwards-tips?
+Code und Plugin siehe hier:
+http://bl.ocks.org/Caged/6476579
+außerdem: momentan code ich den text hard, vor allem die Text-tags. Geht das auch anders?;
+*/
+.line{
+	fill: none;
+	stroke: #E33;
+	stroke-width: 3px;
+}
+
+.axis line {
+	shape-rendering: crispEdges;
+}
+
+.slider .handle{
+	fill: #fff;
+	stroke: #000;
+	stroke-opacity: 0.5;
+	stroke-width: 1.25px;
+}
+
+/*
+svg {
+	border: 1px solid blue;
+
+}
+*/
+
+.content{
+	float: left;
+	clear: both;
+}
+
+.hidden{
+	display: none
+}

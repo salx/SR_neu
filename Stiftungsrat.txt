@@ -1,0 +1,23 @@
+35 Mitglieder
+
+Neun: Bundesregierung
+Neun: Bundesländer
+Sechs: Publikumsrat
+Fünf: ORF Zentralbetriebsrat
+Sechs: Parteien im Nationalrat
+
+Liste:
+http://kundendienst.orf.at/unternehmen/menschen/gremien/stiftung1.html
+
+Zentrum: General
+
+1. Kreis: Stiftungsrat, 5 Segmente, pro Mitglied ein Teil, eingefärbt nach politischer Farbe
+
+2. Kreis: Publikumsrat (?)
+
+Interaktivität:
+- Zoomen, Anordnen der Teile nach Farbe (Rot/schwarz)
+
+
+VOLL wichtige Quelle:
+http://derstandard.at/1263706587860/ORF-Gremien-Der-Stiftungsrat---alle-Mitglieder-alle-Farben-alle-Jobs
